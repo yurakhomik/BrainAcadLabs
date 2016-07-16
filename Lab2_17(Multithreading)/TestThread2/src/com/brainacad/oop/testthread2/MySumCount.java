@@ -1,6 +1,6 @@
 package com.brainacad.oop.testthread2;
 
-public class MySumCount extends Thread {
+public class MySumCount implements Runnable {
 	int startIndex;
 	int stopIndex;
 	
