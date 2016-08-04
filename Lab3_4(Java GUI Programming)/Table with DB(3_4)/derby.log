@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Aug 04 01:49:44 EEST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0156-5299-275e-000003325370 
+on database directory C:\Users\Oleh\workspace\Table with DB\src\application\db\goods_book with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+Loaded from file:/C:/Users/Oleh/workspace/Table%20with%20DB/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_92-b14
+user.dir=C:\Users\Oleh\workspace\Table with DB
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

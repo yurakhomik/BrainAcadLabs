@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="236.0" prefWidth="415.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button fx:id="button1" layoutX="27.0" layoutY="125.0" mnemonicParsing="false" onAction="#randomyOnAction" text="New number" />
+      <Button fx:id="button2" layoutX="268.0" layoutY="125.0" mnemonicParsing="false" onAction="#verifyOnAction" text="Verify" />
+      <Label layoutX="27.0" layoutY="90.0" prefHeight="17.0" prefWidth="149.0" text="Enter number (0 - 9)" />
+      <TextField fx:id="textField" layoutX="223.0" layoutY="86.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="101.0" layoutY="20.0" text="Guess Number" textFill="#270ccc">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="170.0" prefHeight="45.0" prefWidth="405.0" text="Wait for you answer" textFill="#d00707">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
